@@ -1,0 +1,49 @@
+# zshell / shell
+alias zshconfig="mate ~/.zshrc"
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ll="ls -rtla"
+alias tld="tail -100f ./log/development.log"
+
+# folder shortcuts
+alias sc="cd ~/dev/projects/shipcloud"
+alias sm="cd ~/dev/projects/marketing"
+alias bb="cd ~/dev/customer/reverseretail/buddy"
+
+# Git
+alias s="git status --short"
+alias gcm="git commit -m"
+alias gd="git diff"
+alias gf="git fetch"
+alias gl="git smart-log"
+alias gco="git checkout"
+alias gpl="git pull"
+alias gps="git push"
+alias gup="git smart-pull"
+alias gm="git smart-merge"
+alias grh='git reset --hard'
+alias gbrt="gbrt.rb"
+
+# Bundler
+alias bi='bundle install'
+alias be='bundle exec'
+alias bu='bundle update'
+
+# RSpec
+alias r="rspec "
+alias rs="rake spec"
+alias rsr="rake spec:requests"
+
+# Rake
+alias rdm="rake db:migrate"
+alias rdt="rake db:test:prepare"
+alias rds="rake db:seed"
+
+# Rails
+alias rbp="rails_best_practices -f html --with-textmate --with-git --output-file tmp/rails_best_practices.html app lib"
+
+# Vim
+alias vrc="vim ~/.vimrc"
+alias v='vim'
+alias vi='vim'
